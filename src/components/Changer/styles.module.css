@@ -1,0 +1,24 @@
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+
+	margin: 0 auto;
+	padding: 0 10%;
+}
+
+.image {
+	max-width: 300px;
+	width: 100%;
+}
+
+.button {
+	background: url(/src/assets/Changer/button.png) no-repeat;
+	background-size: contain;
+
+	width: 96px;
+	height: 60px;
+}
+
+.button {
+	transform: rotate(180deg);
+}

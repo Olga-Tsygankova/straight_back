@@ -87,7 +87,7 @@
 	}
 
 	.imageInfo {
-		border: 1px solid #CC2A41;
+		border-left: 1px solid #CC2A41;
 	}
 }
 
@@ -111,6 +111,6 @@
 
 	.imageInfo {
 		max-width: 510px;
-		border: 1px solid #CC2A41;
+		border-left: 1px solid #CC2A41;
 	}
 }

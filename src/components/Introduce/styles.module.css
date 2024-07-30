@@ -10,6 +10,7 @@
 
 .title {
 	max-width: 980px;
-	font-size: 201px;
+	font-size: 10vw;
+	font-weight: 400;
 	color:rgba(204, 42, 65, 1);
 }

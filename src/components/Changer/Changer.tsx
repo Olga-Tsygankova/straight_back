@@ -1,4 +1,4 @@
-import React, { useState} from 'react';
+import { useState} from 'react';
 import styles from './styles.module.css'
 
 const iceCreamImages = [
@@ -36,7 +36,7 @@ export const Changer = () => {
             className={`image ${index === currentImageIndex ? 'active' : ''}`}
           />
         ))}
-      </div>
+        </div>
 				<button onClick={handleNext} className={styles.button}></button>
 			</section>
 		</>

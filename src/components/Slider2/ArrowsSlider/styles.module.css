@@ -1,8 +1,10 @@
 .prevArrow, .nextArrow {
-  width: 30px;
-  height: 30px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+	background-image: url(../../../assets/Slider2/IMAGE4.png);
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,18 +15,22 @@
   content: '';
   width: 10px;
   height: 10px;
-  border-top: 2px solid white;
-  border-right: 2px solid white;
 }
 
 .prevArrow {
-  transform: rotate(-135deg);
-  left: -40px;
+  left: -60px;
 }
 
 .nextArrow {
-  transform: rotate(45deg);
-  right: -40px;
+  right: -60px;
+}
+
+.prevArrow:hover,
+.nextArrow:hover {
+	background-color: white;
+	background-image: url(../../../assets/Slider2/IMAGE4.png);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .slick-prev, .slick-next {

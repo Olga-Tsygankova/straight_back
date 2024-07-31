@@ -6,7 +6,7 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from './styles.module.css';
-import { PrevArrow, NextArrow } from './ArrowsSlider/Arrows.tsx'; // убедитесь, что путь правильный
+import { PrevArrow, NextArrow } from './ArrowsSlider/Arrows.tsx';
 
 interface CarouselSettings {
   dots: boolean;
@@ -31,8 +31,8 @@ const settings: CarouselSettings = {
 export const SimpleCarousel: React.FC = () => {
   return (
     <div className={styles.wrapper}>
-      <h1>@THEMAGICSLAB</h1>
-      <p>Put the magic in your feed and follow us on Instagram for updates into our creamy world!</p>
+      <h2 className={styles.SliderTitle}>@THEMAGICSLAB</h2>
+      <p className={styles.SliderSubtitle}>Put the magic in your feed and follow us on Instagram for updates into <br/> our creamy world!</p>
       <Slider {...settings} className={styles.slider}>
         <div className={styles.image}>
           <img src={image1} alt='slide-1' />

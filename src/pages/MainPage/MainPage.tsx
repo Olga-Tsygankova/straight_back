@@ -1,7 +1,9 @@
 import styles from './styles.module.css';
 import {Info} from '../../components/Info';
 import {Changer} from '../../components/Changer';
-import {Introduce} from '../../components/Introduce'
+import { Introduce } from '../../components/Introduce';
+import {Featured} from '../../components/Featured'
+
 
 export const MainPage = () => {
   return (
@@ -11,6 +13,7 @@ export const MainPage = () => {
       Main Page
       <Introduce />
       <Changer />
+      <Featured />
       <Info />
     </div>
   );

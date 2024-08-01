@@ -1,9 +1,9 @@
 import { useState} from 'react';
 import styles from './styles.module.css';
-import imageIceCream1 from '../../assets/Changer/IMAGE.png';
-import imageIceCream2 from '../../assets/Changer/IMAGE-1.png';
-import imageIceCream3 from '../../assets/Changer/IMAGE-2.png';
-import imageIceCream4 from '../../assets/Changer/IMAGE-3.png';
+// import imageIceCream1 from '../../assets/Changer/IMAGE.png';
+// import imageIceCream2 from '../../assets/Changer/IMAGE-1.png';
+// import imageIceCream3 from '../../assets/Changer/IMAGE-2.png';
+// import imageIceCream4 from '../../assets/Changer/IMAGE-3.png';
 
 const iceCreamImages = [
 	'/src/assets/Changer/IMAGE.png',

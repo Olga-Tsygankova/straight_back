@@ -8,7 +8,7 @@ export const Featured = () => {
 	return (
 		<>
 			<section className={styles.wrapper}>
-				<h1 className={styles.title}>FEATURED IN</h1>
+				<h2 className={styles.title}>FEATURED IN</h2>
 				<ul className={styles.list}>
 					<li className={styles.listItem}><img src={imageFoodNetwork} alt="Логотип Фуд Нетворк" className={styles.image} /></li>
 					<li className={styles.listItem}><img src={imageCosmopolitan} alt="Логотип Космополитан" className={styles.image} /></li>

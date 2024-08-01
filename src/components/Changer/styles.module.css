@@ -4,8 +4,20 @@
 	justify-content: space-between;
 	align-items: center;
 
-	margin: 0 auto 100px;
+	margin: 0 auto 10vw;
 	padding: 0 10%;
+}
+
+@media (max-width: 1024px) {
+	.wrapper {
+		padding: 0 25%;
+  }
+}
+
+@media (max-width: 480px) {
+	.wrapper {
+		padding: 0 10%;
+  }
 }
 
 .changer {
@@ -13,7 +25,7 @@
 	flex-wrap: nowrap;
 
 	justify-content: space-between;
-	align-items: end;
+	align-items: center;
 
 	max-width: 70%;
 	width: 100%;
@@ -33,12 +45,26 @@
 .image.active {
 	max-height: 400px;
 
+	animation: 3s ease-in-out 0s normal none infinite running levitation;
 	transition: all 1s;
+}
+
+@media (max-width: 1024px) {
+	.image {
+		max-height: 150px;
+		display: none;
+  }
+
+  .image.active {
+		max-height: 300px;
+		display: block;
+  }
 }
 
 .button {
 	background: url(/src/assets/Changer/button.png) no-repeat;
 	background-size: contain;
+	background-position: center;
 
 	width: 96px;
 	border: none;
@@ -78,5 +104,15 @@
 	}
 	20%, 40% {
 			transform: rotate(170deg);
+	}
+}
+
+@keyframes levitation {
+	0%, 100% {
+		margin-bottom: 0;
+	}
+
+	50% {
+		margin-bottom: 50px;
 	}
 }

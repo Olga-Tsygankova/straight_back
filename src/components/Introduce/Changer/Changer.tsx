@@ -29,7 +29,7 @@ export const Changer = () => {
 
 	return (
 		<>
-			<section className={styles.wrapper}>
+      <section className={styles.wrapper}>
 				<button onClick={handlePrevious} className={`${styles.button} ${styles.previous}`}></button>
 				<div className={styles.changer}>
         {iceCreamImages.map((src, index) => (

@@ -1,8 +1,8 @@
 import styles from './styles.module.css'
-import imageFoodNetwork from '../../assets/Featured/IMAGE.svg';
-import imageCosmopolitan from '../../assets/Featured/IMAGE-1.svg';
-import imagePeople from '../../assets/Featured/IMAGE-2.svg';
-import imageBuzzFeed from '../../assets/Featured/IMAGE-3.svg';
+import imageFoodNetwork from '../../../assets/Featured/IMAGE.svg';
+import imageCosmopolitan from '../../../assets/Featured/IMAGE-1.svg';
+import imagePeople from '../../../assets/Featured/IMAGE-2.svg';
+import imageBuzzFeed from '../../../assets/Featured/IMAGE-3.svg';
 
 export const Featured = () => {
 	return (

@@ -9,7 +9,7 @@ export const FooterPlaces = () => {
 				<h3 className={styles.cardTitle}>
 					NEW YORK
 				</h3>
-				<button className={styles.cardNumber}>646-394-3920</button>
+				<a href='tel:646-394-3920' className={styles.cardNumber}>646-394-3920</a>
 				<p className={styles.cardAdress}>4096 Grove Street<br/>Farmingdale, NY 11735</p>
 			</div>
 			<div className={styles.placeCard}>
@@ -17,7 +17,7 @@ export const FooterPlaces = () => {
 				<h3 className={styles.cardTitle}>
 					CHICAGO
 				</h3>
-				<button className={styles.cardNumber}>773-898-3028</button>
+				<a href='tel:773-898-3028' className={styles.cardNumber}>773-898-3028</a>
 				<p className={styles.cardAdress}>1243 Virginia Street<br/>Chicago, IL 60629</p>
 			</div>
 		</section>

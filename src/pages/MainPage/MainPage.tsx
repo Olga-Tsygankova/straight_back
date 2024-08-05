@@ -1,7 +1,7 @@
 import styles from './styles.module.css';
 import {Info} from '../../components/Info';
 import {Introduce} from '../../components/Introduce';
-
+import { SimpleCarousel } from '../../components/Slider2'
 
 export const MainPage = () => {
   return (
@@ -11,6 +11,7 @@ export const MainPage = () => {
       Main Page
       <Introduce />
       <Info />
+      <SimpleCarousel/>
     </div>
   );
 };

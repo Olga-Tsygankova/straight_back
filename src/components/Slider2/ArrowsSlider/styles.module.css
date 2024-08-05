@@ -1,0 +1,75 @@
+.prevArrow, .nextArrow {
+  width: 56px;
+  height: 56px;
+
+	background-image: url(../../../assets/Slider2/icecream1.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.prevArrow:before, .nextArrow:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+}
+
+.prevArrow {
+  left: -60px;
+  z-index: 1;
+}
+
+.nextArrow {
+  right: -60px;
+  z-index: 1;
+}
+
+.prevArrow:hover,
+.nextArrow:hover {
+  background-image: url(../../../assets/Slider2/icecream1.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.slick-prev, .slick-next {
+  z-index: 1;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+/*                                  MEDIA MIN_WIDTH                                            */
+/*---------------------------------------------------------------------------------------------*/
+
+@media (max-width: 1330px) {
+  .nextArrow {
+    right: 0px;
+    z-index: 1;
+    background-color: #D32F2F;
+    border-radius: 100px 0 0 100px;
+  }
+
+  .nextArrow:hover {
+    right: 0px;
+    z-index: 1;
+    background-color: #D32F2F;
+    border-radius: 100px 0 0 100px;
+  }
+
+  .prevArrow {
+    left: 0px;
+    z-index: 1;
+    background-color: #D32F2F;
+    border-radius: 0 100px 100px 0;
+  }
+
+  .prevArrow:hover {
+    left: 0px;
+    z-index: 1;
+    background-color: #D32F2F;
+    border-radius: 0 100px 100px 0;
+  }
+}

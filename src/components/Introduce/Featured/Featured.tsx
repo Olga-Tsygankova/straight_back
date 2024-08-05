@@ -6,7 +6,6 @@ import imageBuzzFeed from '../../../assets/Featured/IMAGE-3.svg';
 
 export const Featured = () => {
 	return (
-		<>
 			<section className={styles.wrapper}>
 				<h2 className={styles.title}>FEATURED IN</h2>
 				<ul className={styles.list}>
@@ -18,6 +17,5 @@ export const Featured = () => {
 					<li className={styles.listItem}><img src={imageCosmopolitan} alt="Логотип Космополитан" className={styles.image} /></li>
 				</ul>
 			</section>
-		</>
 	)
 }

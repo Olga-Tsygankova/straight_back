@@ -1,15 +1,15 @@
 import { useState} from 'react';
 import styles from './styles.module.css';
-// import imageIceCream1 from '../../assets/Changer/IMAGE.png';
-// import imageIceCream2 from '../../assets/Changer/IMAGE-1.png';
-// import imageIceCream3 from '../../assets/Changer/IMAGE-2.png';
-// import imageIceCream4 from '../../assets/Changer/IMAGE-3.png';
+import imageIceCream1 from '../../../assets/Changer/IMAGE.png';
+import imageIceCream2 from '../../../assets/Changer/IMAGE-1.png';
+import imageIceCream3 from '../../../assets/Changer/IMAGE-2.png';
+import imageIceCream4 from '../../../assets/Changer/IMAGE-3.png';
 
 const iceCreamImages = [
-	'/src/assets/Changer/IMAGE.png',
-	'/src/assets/Changer/IMAGE-1.png',
-	'/src/assets/Changer/IMAGE-2.png',
-	'/src/assets/Changer/IMAGE-3.png'
+	`${imageIceCream1}`,
+	`${imageIceCream2}`,
+	`${imageIceCream3}`,
+	`${imageIceCream4}`
 ]
 
 export const Changer = () => {
@@ -28,7 +28,6 @@ export const Changer = () => {
   };
 
 	return (
-		<>
       <section className={styles.wrapper}>
 				<button onClick={handlePrevious} className={`${styles.button} ${styles.previous}`}></button>
 				<div className={styles.changer}>
@@ -43,6 +42,5 @@ export const Changer = () => {
         </div>
         <button onClick={handleNext} className={`${styles.button} ${styles.next}`}></button>
 			</section>
-		</>
 	)
 }

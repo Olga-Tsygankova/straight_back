@@ -1,12 +1,15 @@
 .prevArrow, .nextArrow {
   width: 56px;
   height: 56px;
+
 	background-image: url(../../../assets/Slider2/icecream1.svg);
 	background-repeat: no-repeat;
 	background-position: center;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
   cursor: pointer;
 }
 
@@ -19,7 +22,6 @@
 .prevArrow {
   left: -60px;
   z-index: 1;
-
 }
 
 .nextArrow {

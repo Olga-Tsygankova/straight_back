@@ -1,11 +1,23 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../../../public/font/Roboto-Bold.woff2);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../../../public/font/Roboto-Bold.woff2);
+  font-weight: 400;
+}
+
 .mainContainer {
+  font-family: 'Roboto';
   font-size: 30px;
   color: black;
   text-align: center;
 
   /*для удобства разделяем шрифты, флексы, отступы и др пробелом*/
-  /*напимер я разделила выше пробелом стили шрифтов и отступ*/
-  margin-top: 100px;
+  /*например я разделила выше пробелом стили шрифтов и отступ*/
 }
 
 /*---------------------------------------------------------------------------------------------*/

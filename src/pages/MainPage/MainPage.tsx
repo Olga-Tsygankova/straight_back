@@ -2,7 +2,7 @@ import styles from './styles.module.css';
 import {Info} from '../../components/Info';
 import {Introduce} from '../../components/Introduce';
 import { SimpleCarousel } from '../../components/Slider2'
-import { Footer } from '../../components/footer'
+import { Footer } from '../../components/Footer'
 
 
 export const MainPage = () => {

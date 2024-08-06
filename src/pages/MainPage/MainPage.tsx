@@ -2,6 +2,8 @@ import styles from './styles.module.css';
 import {Info} from '../../components/Info';
 import {Introduce} from '../../components/Introduce';
 import { SimpleCarousel } from '../../components/Slider2'
+import { Footer } from '../../components/footer'
+
 
 export const MainPage = () => {
   return (
@@ -11,7 +13,8 @@ export const MainPage = () => {
       Main Page
       <Introduce />
       <Info />
-      <SimpleCarousel/>
+      <SimpleCarousel />
+      <Footer />
     </div>
   );
 };

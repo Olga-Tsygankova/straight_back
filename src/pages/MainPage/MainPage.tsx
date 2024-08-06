@@ -9,7 +9,6 @@ export const MainPage = () => {
     <div className={styles.mainContainer}>
       {/*Тут будут лежать компоненты из папки components*/}
       {/*собирать главную страницу будем здесь*/}
-      Main Page
       <Header />
       <Introduce />
       <Info />

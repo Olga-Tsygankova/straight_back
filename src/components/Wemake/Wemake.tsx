@@ -1,7 +1,6 @@
 import styles from './styles.module.css';
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
-import { Element, scroller } from 'react-scroll';
 
 export const Wemake: React.FC = () => {
   const textRef = useRef<HTMLDivElement>(null);

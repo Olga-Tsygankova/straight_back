@@ -1,6 +1,6 @@
 import styles from './styles.module.css'
-import { FooterTitle } from '../../components/footer/footerTitle'
-import { FooterPlaces } from '../../components/footer/footerPlaces'
+import { FooterTitle } from './footerTitle'
+import { FooterPlaces } from './footerPlaces'
 
 export const Footer = () => {
 	return (

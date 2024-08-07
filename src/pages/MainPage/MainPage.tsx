@@ -4,6 +4,7 @@ import {Introduce} from '../../components/Introduce';
 import {SimpleCarousel} from '../../components/Slider2';
 import {Header} from '../../components/Header'
 import { Footer } from '../../components/footer'
+import { Cater } from '../../components/Cater'
 
 export const MainPage = () => {
   return (
@@ -13,6 +14,7 @@ export const MainPage = () => {
       <Header />
       <Introduce />
       <Info />
+      <Cater />
       <SimpleCarousel />
       <Footer />
     </div>

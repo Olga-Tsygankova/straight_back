@@ -5,6 +5,7 @@ import {Wemake} from '../../components/Wemake';
 import {SimpleCarousel} from '../../components/Slider2';
 import {Header} from '../../components/Header'
 import { Footer } from '../../components/footer'
+import { Magic } from '../../components/Magic'
 import { Cater } from '../../components/Cater'
 
 export const MainPage = () => {
@@ -16,6 +17,7 @@ export const MainPage = () => {
       <Introduce />
       <Info />
       <Wemake />
+      <Magic />
       <Cater />
       <SimpleCarousel />
       <Footer />
